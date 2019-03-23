@@ -59,9 +59,14 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 }
 
 /*
@@ -75,7 +80,6 @@ h1, h2, h3, h4, h5, h6 {
 .overflow--auto {
   overflow: auto;
 }
-
 
 /*
   Sections
@@ -102,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 .section__description {
   margin: 0 auto;
   margin-bottom: 2rem;
-  width: 50%;
+  width: 80%;
 }
 
 .section__text--centered {
@@ -136,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 34rem;
 }
 
-.section__exampleTitle{
+.section__exampleTitle {
   font-size: 3.4rem;
   text-align: center;
   text-transform: uppercase;
@@ -178,7 +182,6 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   font-size: 3rem;
 }
-
 
 /*
   Modal
