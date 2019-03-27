@@ -9,6 +9,9 @@ import ExampleWork from './example-work';
 const myWork = [
   {
     title: 'Work Example',
+    href: 'http://example.com',
+    desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     image: {
       desc: 'example screenshot of a project involving code',
       src: 'images/example1.png',
@@ -17,6 +20,9 @@ const myWork = [
   },
   {
     title: 'Portfolio Boilerplate',
+    href: 'https://example.com',
+    desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     image: {
       desc: 'A Serverless Portfolio',
       src: 'images/example2.png',
@@ -25,6 +31,9 @@ const myWork = [
   },
   {
     title: 'Work Example',
+    href: 'https://example.com',
+    desc:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     image: {
       desc: 'example screenshot of a project involving cats',
       src: 'images/example3.png',
